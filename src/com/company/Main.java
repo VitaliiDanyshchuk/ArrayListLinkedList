@@ -225,5 +225,33 @@ public class Main {
         System.out.println("Time to delete on the end arrayList - "
                 +ChronoUnit.MILLIS.between(lnklsDeleteStartEnd,
                 lnklsDeleteFinishEnd) +" ms");
+        /**OUTPUT
+         *
+         * ARRAY LIST
+         * Creating Time arrayList is - 76 ms
+         * Time to insert on the begining  arrayList - 65 ms
+         * Time to insert on the middle arrayList - 14 ms
+         * Time to insert on the end arrayList -  0 ms
+         * Time to update on the begining arrayList -  1 ms
+         * Time to update on the middle arrayList - 1 ms
+         * Time to update on the end arrayList - 1 ms
+         * Time to delete on the begining arrayList -  48 ms
+         * Time to delete on the middle arrayList - 15 ms
+         * Time to delete on the end arrayList - 2 ms
+         * LINKED LIST
+         * Creating Time linkedList is - 8 ms
+         * Time to insert on the begining  lnkList - 5 ms
+         * Time to insert on the middle linkedList - 196 ms
+         * Time to insert on the end linkedList -  0 ms
+         * Time to update on the begining linkedList -  3 ms
+         * Time to update on the middle linkedList - 221 ms
+         * Time to update on the end linkedList - 16 ms
+         * Time to delete on the begining linkedList -  3 ms
+         * Time to delete on the middle linkedList - 199 ms
+         * Time to delete on the end arrayList - 4 ms
+         *
+         *
+         */
 
 }}
+
